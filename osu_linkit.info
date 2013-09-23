@@ -1,0 +1,12 @@
+name = OSU Linkit
+description = Drupal linkit profile
+core = 7.x
+package = OSU
+version = 7.x-1.0
+project = osu_linkit
+dependencies[] = ctools
+dependencies[] = linkit
+dependencies[] = osu_file
+features[ctools][] = linkit:linkit_profiles:1
+features[features_api][] = api:2
+features[linkit_profiles][] = osu_linkit_profile
